@@ -8,9 +8,9 @@ with st.sidebar:
         options = ["Home","About","Contact"],
         icons =["house-heart-fill","calendar2-heart-fill","envelope-heart-fill"],
         default_index = 0,
-    )
+    
 
-
+# sidebar
 if selected == "Home":
     st.title(f"welcome to the {selected} page")
 
